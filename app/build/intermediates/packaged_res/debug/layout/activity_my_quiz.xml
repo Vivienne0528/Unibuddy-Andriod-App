@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:id="@+id/my_quiz_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic__back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="My Quiz"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="80dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="#FFBBBBBB">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#EB93D2F3">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quiz 1:"
+                android:textColor="#6C6C6C"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="3dp"/>
+
+
+
+            <EditText
+                android:id="@+id/me_quiz1_edit"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/editext_style"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="12dp"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:hint="Please enter your question"/>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="#FFBBBBBB">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#EB93D2F3">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quiz 2:"
+                android:textColor="#6C6C6C"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="3dp"/>
+
+
+
+            <EditText
+                android:id="@+id/me_quiz2_edit"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/editext_style"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="12dp"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:hint="Please enter your question"/>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/me_quiz_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="40dp"
+        android:text="save"></Button>
+
+</LinearLayout>

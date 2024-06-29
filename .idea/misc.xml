@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/android project/COMP90018Unibuddy/app/src/main/res/layout/activity_add_moment.xml" value="0.1" />
+        <entry key="..\:/android project/COMP90018Unibuddy/app/src/main/res/layout/activity_albums.xml" value="0.1539855072463768" />
+        <entry key="..\:/android project/COMP90018Unibuddy/app/src/main/res/layout/activity_chat_details.xml" value="0.1539855072463768" />
+        <entry key="..\:/android project/COMP90018Unibuddy/app/src/main/res/layout/activity_finder_profile.xml" value="0.1539855072463768" />
+        <entry key="..\:/android project/COMP90018Unibuddy/app/src/main/res/layout/activity_login.xml" value="0.1539855072463768" />
+        <entry key="..\:/android project/COMP90018Unibuddy/app/src/main/res/layout/activity_main.xml" value="0.1539855072463768" />
+        <entry key="..\:/android project/COMP90018Unibuddy/app/src/main/res/layout/activity_my_friends_activity.xml" value="0.1539855072463768" />
+        <entry key="..\:/android project/COMP90018Unibuddy/app/src/main/res/layout/activity_my_moment.xml" value="0.1539855072463768" />
+        <entry key="..\:/android project/COMP90018Unibuddy/app/src/main/res/layout/activity_my_quiz.xml" value="0.1" />
+        <entry key="..\:/android project/COMP90018Unibuddy/app/src/main/res/layout/activity_person_info_guide.xml" value="0.1539855072463768" />
+        <entry key="..\:/android project/COMP90018Unibuddy/app/src/main/res/layout/activity_photo.xml" value="0.1539855072463768" />
+        <entry key="..\:/android project/COMP90018Unibuddy/app/src/main/res/layout/activity_photo_album.xml" value="0.1539855072463768" />
+        <entry key="..\:/android project/COMP90018Unibuddy/app/src/main/res/layout/activity_user_info.xml" value="0.1539855072463768" />
+        <entry key="..\:/android project/COMP90018Unibuddy/app/src/main/res/layout/activity_welcome.xml" value="0.1539855072463768" />
+        <entry key="..\:/android project/COMP90018Unibuddy/app/src/main/res/layout/chat_system.xml" value="0.1339918946301925" />
+        <entry key="..\:/android project/COMP90018Unibuddy/app/src/main/res/layout/finder_campus_fragment.xml" value="0.2033514492753623" />
+        <entry key="..\:/android project/COMP90018Unibuddy/app/src/main/res/layout/finder_campus_list.xml" value="0.2033514492753623" />
+        <entry key="..\:/android project/COMP90018Unibuddy/app/src/main/res/layout/finder_filter_fragment.xml" value="0.2033514492753623" />
+        <entry key="..\:/android project/COMP90018Unibuddy/app/src/main/res/layout/finder_list_fragment.xml" value="0.1539855072463768" />
+        <entry key="..\:/android project/COMP90018Unibuddy/app/src/main/res/layout/finder_list_student_list.xml" value="0.1539855072463768" />
+        <entry key="..\:/android project/COMP90018Unibuddy/app/src/main/res/layout/finder_profile_fragment.xml" value="0.1" />
+        <entry key="..\:/android project/COMP90018Unibuddy/app/src/main/res/layout/finder_top_navigator.xml" value="0.1" />
+        <entry key="..\:/android project/COMP90018Unibuddy/app/src/main/res/layout/fragment_me.xml" value="0.2033514492753623" />
+        <entry key="..\:/android project/COMP90018Unibuddy/app/src/main/res/layout/fragment_person_basic_info.xml" value="0.2033514492753623" />
+        <entry key="..\:/android project/COMP90018Unibuddy/app/src/main/res/layout/fragment_question.xml" value="0.2033514492753623" />
+        <entry key="..\:/android project/COMP90018Unibuddy/app/src/main/res/layout/fragment_share.xml" value="0.2033514492753623" />
+        <entry key="..\:/android project/COMP90018Unibuddy/app/src/main/res/layout/fragment_user.xml" value="0.2033514492753623" />
+        <entry key="..\:/android project/COMP90018Unibuddy/app/src/main/res/layout/item_chat_list.xml" value="0.2033514492753623" />
+        <entry key="..\:/android project/COMP90018Unibuddy/app/src/main/res/layout/item_moments.xml" value="0.1539855072463768" />
+        <entry key="..\:/android project/COMP90018Unibuddy/app/src/main/res/layout/me_fragment.xml" value="0.19746376811594202" />
+        <entry key="app/src/main/res/drawable-v24/ic_finder_campus.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/dating1.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/selector.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_finder_profile.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/finder_campus_fragment.xml" value="0.16742654508611957" />
+        <entry key="app/src/main/res/layout/finder_campus_list.xml" value="0.1734375" />
+        <entry key="app/src/main/res/layout/finder_filter_fragment.xml" value="0.16742654508611957" />
+        <entry key="app/src/main/res/layout/finder_list_fragment.xml" value="0.16742654508611957" />
+        <entry key="app/src/main/res/layout/finder_list_student_list.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/finder_profile_fragment.xml" value="0.1734375" />
+        <entry key="app/src/main/res/layout/finder_top_navigator.xml" value="0.16742654508611957" />
+        <entry key="app/src/main/res/layout/fragment_finder.xml" value="0.16742654508611957" />
+        <entry key="app/src/main/res/layout/fragment_user.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/bottom_navigation.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/finder_top_navigation.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

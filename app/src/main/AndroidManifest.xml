@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.unibody">
+
+    <!-- 系统摄像头权限 -->
+    <uses-permission android:name="android.permission.CAMERA" /> <!-- 读取系统文件权限 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:theme="@style/Theme.UniBody">
+        <activity android:name="com.yalantis.ucrop.UCropActivity"/>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="${MAPS_API_KEY}" />
+
+        <activity
+            android:name=".finder.fragment.FinderProfileActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".chat.activity.ChatDetailsActivity"
+            android:exported="false" />
+        <activity android:name="com.yalantis.ucrop.UCropActivity"
+            tools:ignore="DuplicateActivity"/>
+        <activity
+            android:name=".album.ui.PhotoAlbumActivity"
+            android:exported="false">
+        </activity>
+
+        <activity android:name=".login.activity.LoginActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".login.activity.PersonInfoGuideActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"/>
+        <activity android:name=".me.fragment.AddMomentActivity" />
+        <activity android:name=".me.fragment.AlbumsActivity" />
+        <activity android:name=".me.fragment.MyFriendsActivity" />
+        <activity android:name=".me.fragment.MyMomentActivity" />
+        <activity android:name=".me.fragment.PhotoActivity" />
+        <activity android:name=".me.fragment.UserInfoActivity" />
+        <activity android:name=".me.fragment.MyQuizActivity" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.unibody.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            tools:replace="android:authorities">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>
